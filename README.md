@@ -9,7 +9,7 @@
 - **Transaction Hash:** [`0xc4f4cf6170e0a6ec25435c357423b80c7404acd33749cd98cdc04eccb7ea8e4d`](https://explorer.coredao.org/tx/0xc4f4cf6170e0a6ec25435c357423b80c7404acd33749cd98cdc04eccb7ea8e4d)  
 - **Network:** Core DAO (Mainnet/Testnet)  
 - **Deployed via:** Remix IDE connected to Core DAO network
-- **Contract Address:** ['0xA01937A88FBAf5428abD07De69B07D204799bd73']
+- **Contract Address:** '0xA01937A88FBAf5428abD07De69B07D204799bd73'
 
 ---
 
