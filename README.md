@@ -97,6 +97,9 @@ CommitMint enables users on Core DAO to put their money where their mouth is by 
 
 ## ScreenShot
 
+![image](https://github.com/user-attachments/assets/f6ddb367-b656-40fc-a2ec-78ef6d89d067)
+
+
 
 ## License
 
