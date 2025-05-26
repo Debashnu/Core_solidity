@@ -7,9 +7,9 @@
 ## Transaction & Deployment
 
 - **Transaction Hash:** [`0xc4f4cf6170e0a6ec25435c357423b80c7404acd33749cd98cdc04eccb7ea8e4d`](https://explorer.coredao.org/tx/0xc4f4cf6170e0a6ec25435c357423b80c7404acd33749cd98cdc04eccb7ea8e4d)  
+- **Contract Address:** `0xA01937A88FBAf5428abD07De69B07D204799bd73`  
 - **Network:** Core DAO (Mainnet/Testnet)  
 - **Deployed via:** Remix IDE connected to Core DAO network
-- **Contract Address:** '0xA01937A88FBAf5428abD07De69B07D204799bd73'
 
 ---
 
@@ -89,10 +89,14 @@ CommitMint enables users on Core DAO to put their money where their mouth is by 
 ## Useful Links
 
 - Core DAO Explorer Tx: [`0xc4f4cf6170e0a6ec25435c357423b80c7404acd33749cd98cdc04eccb7ea8e4d`](https://explorer.coredao.org/tx/0xc4f4cf6170e0a6ec25435c357423b80c7404acd33749cd98cdc04eccb7ea8e4d)  
+- Core DAO Explorer Contract: [`0xA01937A88FBAf5428abD07De69B07D204799bd73`](https://explorer.coredao.org/address/0xA01937A88FBAf5428abD07De69B07D204799bd73)  
 - Core DAO Official Website: [https://coredao.org](https://coredao.org)  
 - Remix IDE: [https://remix.ethereum.org](https://remix.ethereum.org) (Configure RPC for Core DAO)
 
 ---
+
+## ScreenShot
+
 
 ## License
 
@@ -101,4 +105,3 @@ MIT License © 2025 CommitMint on Core DAO
 ---
 
 *Commit to your goals, stake your trust, and empower community impact — all on Core DAO.*
-
