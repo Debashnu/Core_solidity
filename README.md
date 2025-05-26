@@ -1,53 +1,40 @@
-
 # 💎 CommitMint — Commitment-Based ETH Staking Smart Contract
 
-**CommitMint** is a decentralized smart contract system that allows users to lock ETH as a self-improvement commitment. A trusted referee verifies whether the user achieves their goal within a specified time. If they succeed, they reclaim their ETH. If they fail, the ETH is sent to a charity.
+**CommitMint** is a decentralized smart contract designed for self-improvement and accountability. Users commit to personal goals by staking ETH and assigning a referee. If the goal is verified by the referee before the deadline, users get their ETH back. If not, the funds are sent to a predefined charity address.
 
 ---
 
-## 🌟 Features
+## 🚀 Transaction Info
 
-- 💰 Stake ETH as a commitment
-- ✅ Goal verified by a referee (friend, trainer, etc.)
-- ⏳ Deadline-based enforcement
-- 🧾 Automatic ETH refund on success
-- 🎁 ETH sent to charity on failure
-- 🔒 No third-party control — fully decentralized
+- **Deployment Hash**: [`0xc4f4cf6170e0a6ec25435c357423b80c7404acd33749cd98cdc04eccb7ea8e4d`](https://etherscan.io/tx/0xc4f4cf6170e0a6ec25435c357423b80c7404acd33749cd98cdc04eccb7ea8e4d)
+- **Deployer**: Your wallet address (connected via Remix)
+- **Network**: Ethereum / Testnet (depending on deployment)
 
 ---
 
-## 🛠️ How It Works
+## 📄 Contract Features
 
-1. **Commit**
-   - User stakes ETH and provides:
-     - A personal goal (as a string)
-     - A referee address
-     - A deadline duration
-
-2. **Confirm**
-   - The referee calls `confirm()` to verify the goal is achieved before the deadline.
-
-3. **Claim**
-   - If confirmed, the user calls `claim()` to retrieve their staked ETH.
-
-4. **Forfeit**
-   - If not confirmed by the deadline, the user (or anyone) calls `forfeit()` to donate the ETH to a predefined charity address.
+- ✅ **Create a Commitment**: Lock ETH with a personal goal, referee, and deadline.
+- 👤 **Referee Verifies**: Trusted referee confirms whether the goal was achieved.
+- ⏱ **Deadline Enforced**: Commitments must be completed within a time frame.
+- 💰 **Refund on Success**: Users reclaim ETH if confirmed by referee.
+- 🎁 **Donate on Failure**: Funds are sent to a predefined charity if the user fails or doesn't complete in time.
 
 ---
 
-## 🔐 Smart Contract Overview
+## 🧠 Use Cases
 
-### Functions
+- 🏋️ Fitness Goals — Run 5km every day for a week.
+- 📚 Study Deadlines — Complete a course module within 7 days.
+- 🧘 Habit Building — Meditate every day for 30 days.
+- 🧑‍💼 DAO-Driven Commitments — Contribute to an open-source repo.
+- 🎁 Conditional Donations — Auto-donate if you fail.
 
-| Function         | Description                                                |
-|------------------|------------------------------------------------------------|
-| `commit()`       | Stake ETH with a goal, referee, and deadline.              |
-| `confirm()`      | Called by referee to confirm goal completion.              |
-| `claim()`        | Called by user to reclaim ETH after successful confirmation. |
-| `forfeit()`      | Called to send ETH to charity if deadline passed without confirmation. |
-| `getTimeLeft()`  | View function to get remaining time before deadline.       |
+---
 
-### Struct
+## 📦 Smart Contract Overview
+
+### Struct: Commitment
 
 ```solidity
 struct Commitment {
